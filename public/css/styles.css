@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Gliker";
+    src: url(../fonts/Gliker.ttf);
+}
+@font-face {
+    font-family: "Fact";
+    src: url(../fonts/FactExtraLight.otf);
+}
+
+
+
+body
+{
+    background: linear-gradient(to right, #d094ec, #e4b6f7, #d68ef1, #d488eb, #b36ec5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-vacaciones
+{
+    background-color: #d6d3c0;
+    display: flex;
+    /* width: 376px; */
+    width: 400px;
+    
+}
+
+.card-vacaciones img
+{
+    width: 120px;
+    margin: 0px;
+    padding: 0px;
+    /* border-left: 2px solid #4d3020; */
+    /* border: 1px solid red; */
+    transform: translateX(-0.5px);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.descripcion-campo
+{
+    margin-left: 22px;
+    padding-right: 12px;
+}
+
+.descripcion-campo h1
+{
+    color: #060000;
+    font-family:'Gliker';
+    font-size: 19px;
+    font-weight: lighter;
+}
+.descripcion-campo button
+{
+    color: #816037;
+    border: none;
+    background-color: #d6d3c0;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.descripcion-campo p
+{
+    width: 229px;
+    font-family: 'Fact';
+    font-size: 12px;
+}
+
+.card-vacaciones
+{
+    border: 4px solid #4d3020;
+    border-radius: 12px;
+}
